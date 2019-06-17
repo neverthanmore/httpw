@@ -1,0 +1,24 @@
+{
+  "name": "httpw",
+  "version": "1.0.0",
+  "description": "urllib for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverthanmore/httpw.git"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "urllib"
+  ],
+  "author": "gbbacy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neverthanmore/httpw/issues"
+  },
+  "homepage": "https://github.com/neverthanmore/httpw#readme"
+}
