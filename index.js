@@ -24,7 +24,7 @@ function append(err, name, message) {
 
 exports.request = (url, opts = {}) => {
   let responseTimeout, connectTimeout;
-  responseTimeout = isIntegerAndGteZeor(opts.responseTimeout) ? opts.responseTimeout : DEFAULT_TIMEOUT;
+  responseTimeout = isIntegerAndGtZero(opts.responseTimeout) ? opts.responseTimeout : DEFAULT_TIMEOUT;
   connectTimeout = isIntegerAndGtZero(opts.connectTimeout) ? opts.connectTimeout : DEFAULT_TIMEOUT;
 
   const urlObj = typeof url === 'string' ? Url.parse(url) : url;
